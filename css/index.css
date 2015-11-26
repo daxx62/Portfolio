@@ -1,0 +1,181 @@
+/** Police **/
+
+
+@font-face {
+  font-family: 'LoL';
+  src: url('friz-quadrata-regular.ttf');
+}
+
+@font-face {
+  font-family:"coolvetica";
+  src: url('coolvetica rg.ttf');
+}
+
+/** LA MISE EN PAGE GENERAL  **/
+
+html, body {
+  background-color: rgb(236, 242, 194);
+  margin: 0
+  left: 0;
+  width: 100%;
+  margin-top: 7%;
+  overflow-x: hidden;
+  }
+
+
+/** Bordure avec titre  **/
+
+header {
+  position: fixed;
+  top:0;
+  left:0;
+  width: 100%;
+}
+
+header h1 {
+
+font-family: 'LoL';
+border: 5px solid rgb(207, 19, 19);
+background-color: rgb(207, 19, 19);
+margin: 1px 0 0 0;
+
+color: white;
+text-align: center;
+}
+
+/** Bordure 2 + commentaire **/
+
+header h3 {
+border: 4px solid rgb(221, 56, 54);
+background-color: rgb(221, 56, 54);
+padding: 5px 0 0 5px;
+margin: 0px 0px 0px 0px;
+text-align: center;
+color: white;
+}
+
+/** CEST LES LIENS UN D'SSOUS DU BORDEURE 2 **/
+
+nav {
+  text-align: center;
+}
+
+nav a {
+  margin-left: 2%;
+  font-size: 1.5em;
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  background-color: rgb(69, 1, 17);
+  border-radius: 70%;
+  padding: 3px 10px 3px 10px;
+  border: 3px rgb(207, 19, 19) solid;
+
+}
+
+nav a:hover {
+  color: blue;
+}
+
+
+
+
+/** ------------------------------------------------------------------------------------------------------------- **/
+
+
+
+
+
+/** Milieu de page ayant l'image  + page **/
+
+
+
+/** Avatar **/
+
+
+#avatar img{
+    width: 25%;
+    border-radius:         100%;
+}
+
+/** Titre à propos **/
+
+ #bodytitre {
+   font-family: "coolvetica";
+margin-left: 15%;
+color: rgb(54, 22, 22)
+
+}
+
+#description {
+
+  margin-top: 50px;
+  text-align: justify;
+
+  font-family:'coolvetica';
+}
+
+body p {
+  font-size: 1em;
+  font-family:'coolvetica';
+
+}
+
+
+
+
+
+/** ----------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------
+------------------- PORTFOLIO ---------------- PORTFOLIO ----------------------- PORTFOLIO ------------------
+------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------- **/
+
+
+#titrefolio {
+  margin-left: 40%;
+  font-size: 30px;
+  font-family:'coolvetica';}
+
+#paragraphefolio {
+  text-align: justify;
+  margin: 0 10% 50px 10%;
+}
+
+/** IMAGES PORTFOLIO **/
+
+
+.imagefolio{
+  width: 40%;
+  margin: 3% 0 0 5%;
+  display: inline-block;
+
+}
+
+.imagefolio img {
+  width: 100%;
+  
+}
+
+
+#figurecsgo{
+  float: left;
+}
+
+#figuremoh{
+  float: left;
+}
+
+#figurelol{
+  clear: both;
+  float: left;
+}
+
+#figurehs {
+  float: left;
+}
+
+figcaption {
+
+  background: linear-gradient(to bottom, rgb(236, 242, 194), red);
+}
