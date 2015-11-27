@@ -47,6 +47,11 @@ header h3{
   text-decoration : underline;
 }
 
+header a {
+  text-decoration: none;
+  color: white;
+
+}
 
 
 /** CEST LES LIENS UN D'SSOUS DU BORDEURE 2 **/
@@ -56,6 +61,7 @@ nav {
   text-align: center;
   width: 100%;
   background-color: rgb(69, 1, 17);
+  margin-bottom: 1%;
 }
 
 
@@ -207,5 +213,4 @@ section a {
 section img {
   vertical-align: middle;
   width: 30px;
-
 }
